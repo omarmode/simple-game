@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.parson {
+  width: 45%;
+  border: 1px solid black;
+  background-color: aliceblue;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.parson .progress {
+  background-color: #888;
+  height: 30px;
+}
+.parson .progress span {
+  width: 100%;
+  display: block;
+  background-color: green;
+  height: 100%;
+}
+.parson img {
+  height: 200px;
+  width: 200px;
+  margin: 10px auto;
+  display: block;
+}
+.parson button {
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border: 0;
+  background-color: black;
+  color: aliceblue;
+  margin: 20px 0;
+}
